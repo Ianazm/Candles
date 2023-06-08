@@ -15,6 +15,26 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
+.video {
+    position: relative;
+padding-bottom: 5px;
+margin-right: 0;
+margin-left: 0;
+}
+
+.video__media {
+    width: 100%
+        height: auto;
+top: 0;
+left: 0;
+}
+
+.intro {
+max-height: 100vh;
+display: flex;
+justify-content: center;
+}
+
 header .header {
   display: flex;
   align-items: center;
@@ -458,7 +478,6 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 footer .container {
   display: flex;
   align-items: baseline;
