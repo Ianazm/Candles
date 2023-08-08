@@ -802,9 +802,14 @@ footer .container {
 }
 
 /*-----------------Портфолио*/
+.big_photo_portfolio {
+ 
+}
+
+
 .portfolio__list {
   display: flex;
-  flex-wrap: wrap;
+flex-wrap: wrap; 
   justify-content: center;
 }
 
@@ -833,7 +838,7 @@ footer .container {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: rgb(222, 247, 6, 0.3);
   overflow: auto;
   transform: translateY(100%);
   transition: transform var(--effect-hover-focus-transition) linear;
