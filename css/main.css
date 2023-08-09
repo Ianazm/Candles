@@ -826,7 +826,7 @@ footer .container {
 }
  .portfolio__list {
   display: flex;
-  flex-wrap: wrap; 
+  /*flex-wrap: wrap; */
   justify-content: center;
 } 
 
@@ -989,14 +989,12 @@ body {
 }
 
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-right: 15px;
   padding-left: 15px;
 }
 
