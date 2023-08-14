@@ -864,10 +864,16 @@ footer .container {
   width: 900px;
 }
 
-.big_photo_portfolio {
+/*.big_photo_portfolio {
   margin-right: auto;
   margin-left: auto;
+}*/
 
+.container-big_photo_portfolio
+{
+  width: 900px;
+  margin: auto;
+  padding: auto;
 }
 
 .big_photo_text {
