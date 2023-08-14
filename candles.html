@@ -18,24 +18,18 @@
 <body class="page-main">
     <header>
         <div class="container">
-
             <!-------------навігація---------->
-
                           <div class="header">
                       <nav class="main-nav">
                           <a href="" class="logo">DEDAL</a>
                       </nav>
-
 <!----------------------------Меню------------>
-
                       <ul class="menu menu_text">
                         <li class="menu_list site-nav__item"><a href="" class="site-nav__link">DEDAL SHOP</a></li>
-                        <li class="menu_list site-nav__item"><a href="./index.html" class="site-nav__link--active">Каталог</a></li>
+                        <li class="menu_list site-nav__item"><a href="./index.html" class="site-nav__link">Каталог</a></li>
                         <li class="menu_list site-nav__item"><a href="./about.html" class="site-nav__link">Про нас</a></li>
                       </ul>
-
                       <!------------хедер-контакти-->
-
                           <div class="header-contacts">
                               <ul class="header-contacts__list">
                                   <li class="header-contacts__item">
@@ -55,9 +49,12 @@
                           </div>
                   </div>
     </header>
-    
-    <!-----------------------------------Секція підвалу Контакти----------------------------------->
+    <main>
+        
+    </main>
 
+       
+        <!-----------------------------------Секція підвалу Контакти----------------------------------->
 <footer class="footer">
     <div class="footer-flex">
         <div class="container">
@@ -66,9 +63,7 @@
                     <a href="" class="logo">DEDAL</a>
                 </p>
                 <address class="footer-adress">м. Київ, пр-т Саши Іванова, 26</address>
-
                 <!-------------------підвалу Контакти-->
-
                 <ul class="footer-contacts">
                     <li class="footer-contacts__list"><a href="mailto:info@example.com"
                             class="footer-contacts__mail">info@example.com</a></li>
@@ -116,8 +111,20 @@
     </div>
  </footer>
 
-<!-----------------JavaScript-->
 
+<!-----------------------------------------Модалка-->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <img src="./images/CAP/ORIGINAL/18/С0018-AS/С0018-ASNT/С0018F-ASNTTR/С0018F100-RDNTTR.JPG" alt="" width="500px">
+        <!--кнопка закриття модалкі-->
+        <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-close-icon" width="11px" height="11px">
+                <use href="./images/svg/icons.svg#icon-close" ></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<!--JavaScript-->
 <script src="./js/modal.js"></script>
 </body>
 </html>
