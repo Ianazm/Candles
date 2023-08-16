@@ -343,7 +343,7 @@ div .section-benefits {
 /*---------------------------НАША КОМАНДА-----------------*/
 
 .team {
-  background-color: #f5f4fa;
+
   padding-top: 35px;
   padding-bottom: 10px;
   margin-bottom: 35px;
@@ -429,7 +429,7 @@ div .section-benefits {
 
 .masters-social-link:hover,
 .masters-social-link:focus {
-  background: #2196f3;
+  background: #069725;
 }
 
 .masters-social-link:hover .masters-social__icon,
@@ -591,7 +591,7 @@ footer .container {
 
 .social-join__link:hover,
 .social-join__link:focus {
-  background: #2196f3;
+  background: #069725;
 }
 
 .social-join__icon {
@@ -1121,7 +1121,7 @@ li [type]:hover {
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --link-hover-color: #2196f3;
+  --link-hover-color: #057236;
   --logo-text-color: #04080c;
   --footer-background-color: #096e1a;
   --effect-hover-focus-transition: 250ms;
