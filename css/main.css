@@ -1278,3 +1278,14 @@ body p {
 .main {
   margin-left: 200px; 
 }
+
+.own-product_text {
+  margin: 350px auto;
+  font-family: "Coco Gothic";
+  font-style: 500;
+  font-size: 50px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: bold;
+}
