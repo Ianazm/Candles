@@ -29,7 +29,13 @@ justify-content: center;
   font-size: 24px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-top: 35px;
+  margin-top: 15px;
+  color: #000;
+}
+
+.special {
+  padding-top: 30px;
+  margin-bottom: 40px;
 }
 
 .site-nav {
@@ -343,8 +349,8 @@ div .section-benefits {
 /*---------------------------НАША КОМАНДА-----------------*/
 
 .team {
-
-  padding-top: 35px;
+  background-color: #e5e5e5d1;
+  padding-top: 9px;
   padding-bottom: 10px;
   margin-bottom: 35px;
 }
