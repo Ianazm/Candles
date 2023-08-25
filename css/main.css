@@ -14,7 +14,8 @@ header {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
   padding: 15px, 0;
-}
+  
+  }
 
 /* .intro {
 max-height: 100vh;
@@ -355,6 +356,11 @@ div .section-benefits {
   margin-bottom: 35px;
 }
 
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .about-team {
   padding-bottom: 30px;
   padding-top: 30px;
@@ -508,12 +514,17 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #06331d;
+  }
+
+.company_rights {
+align-items: flex-end;
+
 }
 
 footer .container {
   display: flex;
   align-items: baseline;
-}
+  }
 
 .footer-box {
   padding-right: 70px;
@@ -941,6 +952,14 @@ p .main-directory_text {
   width: 310px;
 }
 
+.portfolio {
+  
+}
+
+.hero-photo {
+  
+}
+
 /*.big_photo_portfolio {
   margin-right: auto;
   margin-left: auto;
@@ -1269,6 +1288,7 @@ body p {
 }
 
 
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -1287,7 +1307,7 @@ body p {
 
 .main {
   margin-left: 200px; 
-}
+  }
 
 .own-product_text {
   margin: 350px auto;
