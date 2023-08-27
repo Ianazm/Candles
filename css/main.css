@@ -752,8 +752,17 @@ align-items: flex-end;
 /*-------------------------------------ФУТЕР-ПІДВАЛ-----------------------------------------*/
 
 footer .container {
-  display: flex;
+  display: block;
+
+  @media screen and (min-width: 768px) {
+   display: flex;
+  align-items: baseline; 
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
   align-items: baseline;
+  }
   }
 
 .footer-box {
@@ -800,8 +809,12 @@ footer .container {
 
 /*--------------------ПРИЄДНУЙТЕСЬ--*/
 .join-footer {
-  margin-right: 93px;
-}
+  margin-top: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 93px;
+  }
+  }
 
 .title-footer {
   font-weight: bold;
@@ -814,7 +827,11 @@ footer .container {
 
 .social-join__list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .social-join__list .social-join__item {
@@ -1224,7 +1241,7 @@ p .main-directory_text {
 
 .container-big_photo_portfolio
 {
-  width: 872px;
+  width: 1200px;
   margin: auto;
   padding: auto;
 }
@@ -1250,10 +1267,9 @@ p .main-directory_text {
 }
 
 .more-photo {
-    
-    /*display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;*/
+    justify-content: center;
 }
 
  .portfolio__list {
@@ -1437,11 +1453,18 @@ footer {
 
 
 
-/*.container-photo {
-  width: 870px;
+.container-photo {
   margin: 0 auto;
   padding: auto;
-}*/
+
+  @media screen and (min-width: 1200px) {
+    width: 870px;
+  }
+
+  @media screen and (min-width: 870px) {
+    width: 870px;
+  }
+}
 
 .container {
   width: 100%;
@@ -1583,6 +1606,12 @@ body p {
 .main {
   margin-left: 200px; 
   }
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
 
 .own-product_text {
   margin: 350px auto;
