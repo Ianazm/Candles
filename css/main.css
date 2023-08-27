@@ -14,24 +14,40 @@ header {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
   padding: 15px, 0;
-  
   }
 
-/* .intro {
-max-height: 100vh;
-display: flex;
-justify-content: center;
-} */
 
 /*------------------------НАВІГАЦІЯ КАТАЛОГ-ПРО НАС-ДЕДАЛ---------------------*/
 .text_about {
   font-family: "Coco Gothic", sans-serif;
   font-style: 500;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-top: 15px;
   color: #000;
+
+@media screen and (min-width: 480px) {
+    font-size: 18px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+@media screen and (min-width: 768px) {
+    font-size: 24px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+@media screen and (min-width: 1200px) {
+    font-size: 24px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 }
 
 .special {
@@ -61,11 +77,191 @@ header {
   background-color: #06331d;
 }
 
-header .header {
-  display: flex;
+.btn-nav {
+
+
+    @media screen and (min-width: 480px) {
+    
+    }
+    
+    @media screen and (min-width: 768px) {
+       
+    }
+    
+    @media screen and (min-width: 1200px) {
+        
+    }
+
+}
+/*-----------------------------------МОБІЛЬНЕ МЕНЮ------------------*/
+
+
+.open-menu-btn-div {
+    margin-right: 10%;
+
+@media screen and (min-width: 1110px) {
+    display: none;
+    }
+@media screen and (min-width: 768px) {
+        
+        }
+}
+
+.open-menu-btn {
+    background-color: #06331d;
+    border-radius: 0%;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+@media screen and (min-width: 480px) {
+   display: flex;
+    justify-content: space-between;
+        } 
+
+
+@media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+         }
+@media screen and (min-width: 1200px) {
+    
+    }
+ }
+
+
+
+.mob-menu {
+position: fixed;
+background-color: #ffffff;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: 5;
+padding-top: 48px;
+padding-bottom: 48px;
+padding-left: 10%;
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+ display: none;   
+}
+}
+
+.menu-logo {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.close-menu-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 20px;
+    height: 20px;
+    width: 40px;
+    height: 40px;
+margin-right: 10%;
+   
+}
+
+.mob-btn-texr {
+    
+}
+
+.mob-container {
+    width: 100%;
+}
+
+.mob-nav_list {
+
+}
+
+.mob-nav_item {
+    &:not(:last-child){
+        margin-bottom: 24px;
+    }
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+/*.mob-nav-item:focus,
+.mob-nav-item:hover,
+.mob_link:focus,
+.mob-link:hover {
+fill: #069725;
+}*/
+
+
+
+.mob-contacts__list {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+  }
+  
+.mob_link {
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.1em;
+}
+
+.mob-contacts__item {
+    margin-top: 24px;
+}
+
+.nav-none {
+   display: none;
+   @media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    }
+
+@media screen and (min-width: 1110px) {
+    display: flex;
   align-items: center;
+}   
+}
+.navigation-header {
+  display: flex;
   justify-content: space-between;
   padding: 15px;
+}
+
+header .header {
+    @media screen and (min-width: 1200px) {
+       display: flex; 
+       justify-content: space-between;
+    }   
+  
 }
 
 .header-contacts__mail,
@@ -165,7 +361,7 @@ header .header {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-
+  margin-right: 80px;
 }
 
 .menu_list {
@@ -356,10 +552,7 @@ div .section-benefits {
   margin-bottom: 35px;
 }
 
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .about-team {
   padding-bottom: 30px;
@@ -376,7 +569,21 @@ div .section-benefits {
 }
 
 .team__list {
-  display: flex;
+
+     @media screen and (min-width: 480px) and (max-width: 1199px){
+display: flex;
+flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 768px)  {
+      
+        
+        }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+  
 }
 
 .team__item h3 {
@@ -404,10 +611,31 @@ div .section-benefits {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+margin-top: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+  
 }
 
 .team .team__item:not(:last-child) {
-  margin-right: 30px;
+    @media screen and (min-width: 1200px) {
+        margin-right: 30px;
+    }
+  
 }
 
 .team__item h3 {
@@ -416,7 +644,7 @@ div .section-benefits {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
+/*--------------------------------------------ІКОНКИ-ПОСИЛАННЯ НА СОЦМЕРЕЖІ КОМАНДИ----------------------------------------------------*/
 .masters-social__list {
   display: flex;
   justify-content: center;
@@ -521,6 +749,8 @@ align-items: flex-end;
 
 }
 
+/*-------------------------------------ФУТЕР-ПІДВАЛ-----------------------------------------*/
+
 footer .container {
   display: flex;
   align-items: baseline;
@@ -568,7 +798,7 @@ footer .container {
   margin-bottom: 25px;
 }
 
-/*--------------------ПРИСОЕДИНЯЙТЕСЬ--*/
+/*--------------------ПРИЄДНУЙТЕСЬ--*/
 .join-footer {
   margin-right: 93px;
 }
@@ -881,6 +1111,7 @@ p .main-directory_text {
   display: flex;
   flex-wrap: wrap;
   margin: 45px auto;
+  justify-content: center;
 }
 
 .main-directory_item {
@@ -945,11 +1176,37 @@ p .main-directory_text {
 /*-----------------Портфолио*/
 
 .big_photo {
-  width: 872px;
+  width: 75%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+
+  @media screen and (min-width: 480px) {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+   width: 872px; 
+   margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
 }
 
 .photo_LOGO {
-  width: 310px;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 
 .portfolio {
@@ -993,15 +1250,19 @@ p .main-directory_text {
 }
 
 .more-photo {
-    display: flex;
+    
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;*/
 }
 
  .portfolio__list {
   display: flex;
-  /*flex-wrap: wrap; */
+  flex-wrap: wrap; 
   justify-content: center;
+  width: calc(100/2);
+  margin-right: auto;
+  margin-left: auto;
 } 
 
 .portfolio__link-wrap {
@@ -1176,16 +1437,30 @@ footer {
 
 
 
-.container-photo {
+/*.container-photo {
   width: 870px;
   margin: 0 auto;
   padding: auto;
-}
+}*/
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+}
 }
 
 p,
