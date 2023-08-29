@@ -138,6 +138,7 @@ header {
 
 
 .mob-menu {
+  width: 100%;
 position: fixed;
 background-color: #ffffff;
 top: 0;
@@ -1096,7 +1097,7 @@ footer .container {
 
 /*-------------КНОПКА ПРОКРУТКІ ВГОРУ---------------*/
 #myBtn {
-  display: none; 
+
   position: fixed; 
   bottom: 100px; 
   right: 50px; 
@@ -1109,10 +1110,81 @@ footer .container {
   padding: 15px; 
   border-radius: 10px; 
   font-size: 20px; 
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
 }
 
 #myBtn:hover {
   background-color: #555; 
+}
+
+#arrowUp {
+  position: fixed; 
+  bottom: 100px; 
+  right: 50px; 
+  z-index: 1; 
+  border: none; 
+  outline: none; 
+  background-color: rgba(11, 104, 23, 0.6); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 20px; 
+
+  @media screen and (min-width: 10px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+/*-------------------------------МЕНЮ ФЛАКОНІВ----------------------------------*/
+.menu-flacons {
+
+  @media screen and (min-width: 781px) {
+    display: none;
+  }
+}
+
+.menu-flacons__button {
+  font-family: "Coco Gothic", sans-serif;
+  border-radius: 4px;
+  border-width: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.2;
+  padding: 6px 22px;
+  cursor: pointer;
+  transition: var(--effect-hover-focus-transition) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*-----------------навігація портфоліо*/
+.menu-flacons .menu-flacons_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.menu-flacons .menu-flacons_item {
+  color: #148619;
+}
+
+.menu-flacons .menu-flacons__button:hover,
+.menu-flacons .menu-flacons__button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.menu-flacons_item {
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 /*------------------------------ОСНОВНИЙ КАТАЛОГ З 6 ФОТО----------------------------------*/
@@ -1470,6 +1542,8 @@ footer {
   width: 100%;
   margin: 0 auto;
   padding: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 
   @media screen and (min-width: 480px) {
     width: 100%;
@@ -1552,6 +1626,10 @@ body p {
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
+
+  @media screen and (max-width: 780px) {
+    display: none;
+  }
 }
 
 
@@ -1617,7 +1695,7 @@ body p {
   margin: 350px auto;
   font-family: "Coco Gothic", sans-serif;
   font-style: 500;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: center;
