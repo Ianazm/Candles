@@ -1095,7 +1095,7 @@ footer .container {
 /*-------------ЗАГОЛОВОК---------------*/
 
 
-/*-------------КНОПКА ПРОКРУТКІ ВГОРУ---------------*/
+/*-------------КНОПКА ПРОКРУТКИ ВГОРУ---------------*/
 #myBtn {
 
   position: fixed; 
@@ -1335,7 +1335,7 @@ p .main-directory_text {
 }
 
 .photo {
-  width: 203px;
+  width: 270px;
 }
 
 .more-photo {
@@ -1360,6 +1360,10 @@ p .main-directory_text {
 } 
 
 .portfolio__link-wrap:hover .text-img {
+  transform: translateY(0);
+}
+
+.portfolio__link-wrap:hover .text-img2 {
   transform: translateY(0);
 }
 
@@ -1390,6 +1394,27 @@ p .main-directory_text {
   letter-spacing: 0.03em;
   color: #070707;
   background-color: rgb(222, 247, 6, 0.5);
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform var(--effect-hover-focus-transition) linear;
+}
+
+.text-img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 12px 9px;
+  font-family: "Coco Gothic", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #070707;
+  background-color: rgb(247, 62, 6, 0.5);
   overflow: auto;
   transform: translateY(100%);
   transition: transform var(--effect-hover-focus-transition) linear;
@@ -1436,7 +1461,7 @@ p .main-directory_text {
 
 .portfolio__list p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
