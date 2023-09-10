@@ -140,7 +140,7 @@ header {
 .mob-menu {
   width: 100%;
 position: fixed;
-background-color: #ffffff;
+background-color: #06331d;
 top: 0;
 width: 100%;
 height: 100%;
@@ -170,18 +170,13 @@ padding-left: 10%;
 }
 
 .menu-logo {
-    color: #000000;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .close-menu-btn {
     display: block;
     margin-left: auto;
     margin-bottom: 30px;
-    width: 20px;
-    height: 20px;
-    width: 40px;
-    height: 40px;
 margin-right: 10%;
    
 }
@@ -207,6 +202,20 @@ margin-right: 10%;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.1em;
+}
+
+.mob-nav_logo {
+  font-size: 45px;
+
+}
+
+.mob-nav_link {
+      color: white;
+      font-size: 21px;
+}
+
+ .mob-nav_link:hover {
+  font-size: 24px;
 }
 
 /*.mob-nav-item:focus,
@@ -1097,7 +1106,6 @@ footer .container {
 
 /*-------------КНОПКА ПРОКРУТКИ ВГОРУ---------------*/
 #myBtn {
-
   position: fixed; 
   bottom: 100px; 
   right: 50px; 
@@ -1111,10 +1119,15 @@ footer .container {
   border-radius: 10px; 
   font-size: 20px; 
 
+
+  
   @media screen and (min-width: 768px) {
     display: none;
   }
 
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
 }
 
 #myBtn:hover {
@@ -1180,6 +1193,7 @@ footer .container {
 .menu-flacons .menu-flacons__button:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    background-color: #0d5f1f;
 }
 
 .menu-flacons_item {
@@ -1319,10 +1333,14 @@ p .main-directory_text {
 }
 
 .big_photo_text {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Coco Gothic", sans-serif;
   padding-left: 14%;
   margin-top: 45px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
 }
 
 .big_text {

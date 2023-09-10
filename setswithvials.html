@@ -71,32 +71,108 @@
              <!----------------------------------МОБІЛЬНЕ МЕНЮ----------------------------->
             <div class="mob-menu is-hidden">
                                 <div class="container">
-                                <button class="close-menu-btn" type="button">
-                                   <p class="mob-btn-text" style="font-size: 30px;">Х</p> 
-                                </button> 
+                              
+                                <svg  class="close-menu-btn" style="color: rgb(119, 117, 117)" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-x"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                                        fill="rgb(119, 117, 117)"></path>
+                                </svg>
                                     <div class="mob-menu-bottom">
                                         <div class="menu-logo">
-                                            <a href="./index.html" class="logo" style="color: black;">DEDAL</a>
+                                            <a href="./index.html" class="logo mob-nav_logo" style="color: rgb(146, 145, 145);">DEDAL</a>
                                         </div>
                                         <ul class="mob-nav-list" style="margin-bottom: 64px;">
-                                            <li class="mob-nav_item"><a href="" class="">DEDAL SHOP</a></li>
-                                            <li class="mob-nav_item"><a href="./index.html" class="">Каталог</a></li>
-                                            <li class="mob-nav_item"><a href="./about.html" class="">Про нас</a></li>
+                                            <li class="mob-nav_item">
+                                                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                                    class="bi bi-cart4" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                                        fill="white"></path>
+                                                </svg>
+
+                                                <a href="" class="mob-nav_link">DEDAL SHOP</a>
+                                            </li>
+                                            <li class="mob-nav_item">
+                                                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                                    class="bi bi-grid-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"
+                                                        fill="white"></path>
+                                                </svg>
+                                                <a href="./index.html" class="mob-nav_link">Каталог</a>
+                                            </li>
+                                            <li class="mob-nav_item">
+                                                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                    viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                    <path
+                                                        d="M184 88C184 118.9 158.9 144 128 144C97.07 144 72 118.9 72 88C72 57.07 97.07 32 128 32C158.9 32 184 57.07 184 88zM208.4 196.3C178.7 222.7 160 261.2 160 304C160 338.3 171.1 369.8 192 394.5V416C192 433.7 177.7 448 160 448H96C78.33 448 64 433.7 64 416V389.2C26.16 371.2 0 332.7 0 288C0 226.1 50.14 176 112 176H144C167.1 176 190.2 183.5 208.4 196.3V196.3zM64 245.7C54.04 256.9 48 271.8 48 288C48 304.2 54.04 319.1 64 330.3V245.7zM448 416V394.5C468 369.8 480 338.3 480 304C480 261.2 461.3 222.7 431.6 196.3C449.8 183.5 472 176 496 176H528C589.9 176 640 226.1 640 288C640 332.7 613.8 371.2 576 389.2V416C576 433.7 561.7 448 544 448H480C462.3 448 448 433.7 448 416zM576 330.3C585.1 319.1 592 304.2 592 288C592 271.8 585.1 256.9 576 245.7V330.3zM568 88C568 118.9 542.9 144 512 144C481.1 144 456 118.9 456 88C456 57.07 481.1 32 512 32C542.9 32 568 57.07 568 88zM256 96C256 60.65 284.7 32 320 32C355.3 32 384 60.65 384 96C384 131.3 355.3 160 320 160C284.7 160 256 131.3 256 96zM448 304C448 348.7 421.8 387.2 384 405.2V448C384 465.7 369.7 480 352 480H288C270.3 480 256 465.7 256 448V405.2C218.2 387.2 192 348.7 192 304C192 242.1 242.1 192 304 192H336C397.9 192 448 242.1 448 304zM256 346.3V261.7C246 272.9 240 287.8 240 304C240 320.2 246 335.1 256 346.3zM384 261.7V346.3C393.1 335 400 320.2 400 304C400 287.8 393.1 272.9 384 261.7z"
+                                                        fill="white"></path>
+                                                </svg>
+                                                <a href="./about.html" class="mob-nav_link">Про нас</a>
+                                            </li>
                                         </ul>
                                     </div>
                 
-                                      <!------------моб-хедер-контакти-->
+                                      <!------------моб-меню-хедер-контакти-->
                 
                                       <div class="mob-contacts ">
                                         <ul class="mob-contacts__list ">
                                             <li class="mob-contacts__item ">
+
                                                 <a href="mailto:dedal.suport@gmail.com" class="mob-contacts__mail mob_link info">
-                                                    dedal.suport@gmail.com
+                                                <svg class="svg__mail" version="1.0" xmlns="http://www.w3.org/2000/svg" width="20px" height="13px"
+                                                    viewBox="0 0 1280.000000 914.000000" preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,914.000000) scale(0.100000,-0.100000)" fill="#0000EE" stroke="none">
+                                                        <path d="M1195 9129 c-510 -65 -953 -428 -1121 -921 -71 -209 -65 100 -70
+                                                                               -3578 -2 -2270 0 -3345 7 -3410 26 -237 116 -468 257 -660 66 -91 204 -229
+                                                                               290 -290 144 -103 334 -190 511 -232 85 -20 117 -21 2261 -29 1196 -5 3552 -8
+                                                                               5235 -6 l3060 3 85 21 c137 34 207 60 335 123 409 202 684 594 744 1059 8 59
+                                                                               11 1079 11 3445 -1 2774 -3 3371 -14 3416 -42 173 -109 327 -202 467 -71 107
+                                                                               -203 246 -313 329 -88 67 -300 177 -399 208 -30 10 -95 27 -145 39 l-92 22
+                                                                               -5185 1 c-2961 1 -5215 -2 -5255 -7z m7845 -3165 c-1678 -1678 -2471 -2465
+                                                                               -2505 -2485 -69 -40 -150 -41 -217 -1 -29 17 -948 928 -2507 2485 l-2461 2457
+                                                                               5072 0 5073 0 -2455 -2456z m3070 -1326 l-5 -3423 -22 -77 c-58 -204 -153
+                                                                               -318 -326 -391 l-72 -30 -1727 1734 -1727 1734 1937 1938 c1065 1065 1939
+                                                                               1937 1942 1937 3 0 3 -1540 0 -3422z m-9430 1487 l1905 -1905 -1747 -1747
+                                                                               -1747 -1747 -62 29 c-123 59 -208 173 -246 330 -16 65 -18 301 -20 3508 -2
+                                                                               1890 0 3437 4 3437 5 0 865 -857 1913 -1905z m3005 -3000 c451 -455 620 -619
+                                                                               649 -631 50 -20 133 -20 182 1 28 11 207 184 634 610 l595 595 1503 -1503
+                                                                               c826 -826 1502 -1504 1502 -1507 0 -3 -1964 -5 -4365 -5 -2401 0 -4365 2
+                                                                               -4365 5 0 6 3043 3050 3050 3050 3 0 280 -276 615 -615z" />
+                                                    </g>
+                                                </svg> dedal.suport@gmail.com
                                                 </a>
                                             </li>
                                             <li class="mob-contacts__item">
+
                                                 <a href="tel:+380677973233" class="mob-contacts__tel mob_link ">
-                                                    +38 067 797 32 33
+                                                <svg class="svg__tel" version="1.0" xmlns="http://www.w3.org/2000/svg" width="16px" height="14px"
+                                                    viewBox="0 0 997.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#0000EE" stroke="none">
+                                                        <path d="M3045 12782 c-27 -10 -230 -122 -450 -248 -220 -127 -506 -291 -635
+                                                -364 -301 -171 -350 -219 -382 -374 -23 -106 -15 -124 273 -615 480 -820 1464
+                                                -2453 1505 -2500 54 -59 132 -106 213 -127 113 -28 117 -27 650 279 262 151
+                                                553 318 648 371 236 134 298 204 325 370 21 129 12 151 -211 521 -1045 1729
+                                                -1554 2566 -1580 2597 -73 87 -245 131 -356 90z" />
+                                                        <path d="M1193 11440 c-530 -152 -892 -537 -1069 -1139 -285 -967 -66 -2490
+                                                601 -4181 675 -1710 1696 -3334 2810 -4469 954 -971 1864 -1506 2775 -1632
+                                                127 -18 508 -18 625 -1 218 33 412 85 604 161 86 35 177 76 189 86 5 4 -872
+                                                1531 -975 1695 -105 168 -311 504 -630 1030 -170 279 -140 257 -293 219 -128
+                                                -31 -394 -34 -545 -5 -331 61 -711 251 -1050 523 -139 111 -397 363 -527 513
+                                                -197 228 -397 506 -563 785 -101 170 -151 270 -218 440 -168 426 -272 819
+                                                -323 1220 -25 198 -23 540 5 722 53 353 178 647 377 890 30 36 52 68 50 72 -2
+                                                3 -56 95 -120 204 -168 286 -414 732 -816 1477 -492 914 -776 1420 -795 1419
+                                                -5 0 -56 -13 -112 -29z" />
+                                                        <path d="M7690 4686 c-19 -8 -237 -130 -485 -273 -247 -143 -533 -306 -635
+                                                -363 -199 -113 -268 -169 -308 -251 -51 -105 -48 -215 7 -313 701 -1244 1679
+                                                -2927 1734 -2984 18 -18 61 -48 97 -65 59 -29 73 -32 160 -32 l96 0 159 92
+                                                c88 50 385 220 660 377 275 158 512 299 528 314 41 38 76 95 98 160 22 63 26
+                                                199 7 253 -6 19 -100 185 -208 369 -109 184 -403 688 -655 1120 -656 1125
+                                                -854 1460 -887 1502 -18 23 -55 50 -96 70 -57 28 -78 33 -152 35 -53 2 -98 -3
+                                                -120 -11z" />
+                                                    </g>
+                                                </svg> +38 067 797 32 33
                                                 </a>
                                             </li>
                                         </ul>
@@ -107,9 +183,32 @@
         </div>
         <div class="open-menu-btn-div">
             <button class="open-menu-btn " type="button">
-                <svg class="social-join__icon" width="40px" height="40px" >
-                    <use href="./images/svg/icons.svg#icon-menu"></use>
-                </svg>    
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                        stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                        <g transform="scale(5.33333,5.33333)">
+                            <path
+                                d="M25.457,7.504c-6.171,-0.17 -11.438,0.347 -17.579,0.978c-0.611,0.063 -1.244,0.136 -1.77,0.453c-1.354,0.815 -1.381,2.156 -1.244,3.731c0.045,0.522 0.163,1.146 0.65,1.338c0.135,0.053 0.283,0.064 0.429,0.074c11.101,0.736 23.465,0.383 34.557,-0.468c1.366,-0.105 1.708,-0.247 2.437,-1.407c0.825,-1.312 0.618,-3.068 -0.707,-3.871c-1.326,-0.802 -1.721,-0.872 -3.271,-0.875c-4.186,-0.007 -9.318,0.163 -13.502,0.047z"
+                                fill="#ffffff"></path>
+                            <path
+                                d="M18.881,14.979c-4.255,0 -8.643,-0.115 -12.972,-0.402c-0.152,-0.01 -0.364,-0.022 -0.58,-0.107c-0.84,-0.332 -0.93,-1.369 -0.963,-1.76c-0.138,-1.591 -0.137,-3.227 1.484,-4.202c0.639,-0.385 1.381,-0.461 1.977,-0.521c5.787,-0.595 11.256,-1.161 17.644,-0.981v0c2.587,0.072 5.549,0.032 8.412,-0.006c1.76,-0.023 3.487,-0.043 5.076,-0.042c1.623,0.004 2.104,0.086 3.528,0.947c0.684,0.414 1.163,1.076 1.35,1.865c0.212,0.896 0.038,1.879 -0.478,2.7c-0.83,1.318 -1.318,1.523 -2.822,1.639c-5.797,0.445 -13.478,0.87 -21.656,0.87zM23.075,7.972c-5.341,0 -10.122,0.492 -15.146,1.009c-0.632,0.065 -1.148,0.134 -1.563,0.383c-1.034,0.622 -1.149,1.586 -1.004,3.26c0.046,0.538 0.159,0.847 0.335,0.916c0.067,0.026 0.183,0.033 0.275,0.039c12.594,0.833 25.706,0.207 34.489,-0.467c1.224,-0.094 1.417,-0.165 2.051,-1.175c0.374,-0.595 0.502,-1.301 0.352,-1.936c-0.088,-0.373 -0.315,-0.891 -0.895,-1.241c-1.239,-0.749 -1.533,-0.799 -3.013,-0.803c-1.585,-0.004 -3.305,0.02 -5.06,0.043c-2.874,0.038 -5.845,0.077 -8.453,0.005v0c-0.803,-0.023 -1.591,-0.033 -2.368,-0.033z"
+                                fill="#878d8f"></path>
+                            <path
+                                d="M24.805,21.407c-5.722,0.191 -11.388,0.051 -17.111,0.228c-1.011,0.031 -2.189,0.153 -2.727,1.009c-0.53,0.844 -0.354,2.297 -0.215,3.315c0.124,0.906 0.713,1.324 1.623,1.415c1.055,0.106 2.48,0.064 3.542,0.083c9.226,0.17 19.083,-0.229 28.12,-0.008c1.239,0.03 2.573,-0.209 3.492,-1.04c0.753,-0.681 1.083,-1.731 1.122,-2.746c0.033,-0.861 -0.162,-1.803 -0.827,-2.351c-0.651,-0.537 -1.571,-0.559 -2.415,-0.554c-5.058,0.03 -9.548,0.481 -14.604,0.649z"
+                                fill="#ffffff"></path>
+                            <path
+                                d="M15.117,28.002c-1.754,0 -3.497,-0.013 -5.209,-0.044c-1.052,-0.021 -2.492,0.023 -3.582,-0.086c-1.521,-0.151 -1.965,-1.087 -2.069,-1.845c-0.173,-1.268 -0.308,-2.7 0.288,-3.648c0.735,-1.17 2.356,-1.22 3.135,-1.244c2.804,-0.086 5.637,-0.097 8.376,-0.107c2.859,-0.011 5.815,-0.022 8.733,-0.12v0c2.062,-0.068 4.057,-0.187 5.986,-0.3c2.768,-0.163 5.63,-0.331 8.632,-0.349c0.767,0 1.911,-0.011 2.735,0.669c0.697,0.572 1.055,1.552 1.008,2.756c-0.05,1.293 -0.507,2.393 -1.286,3.098c-1.124,1.017 -2.714,1.195 -3.84,1.169c-4.692,-0.114 -9.705,-0.061 -14.55,-0.009c-2.756,0.03 -5.57,0.06 -8.357,0.06zM24.822,21.907c-2.933,0.098 -5.897,0.109 -8.763,0.12c-2.733,0.011 -5.56,0.021 -8.349,0.107c-0.97,0.029 -1.923,0.145 -2.319,0.775c-0.452,0.721 -0.251,2.191 -0.143,2.982c0.06,0.435 0.246,0.892 1.177,0.985c1.035,0.104 2.465,0.062 3.501,0.08c4.418,0.082 9.054,0.032 13.538,-0.017c4.855,-0.052 9.875,-0.105 14.585,0.009c0.95,0.026 2.266,-0.116 3.145,-0.911c0.78,-0.705 0.935,-1.803 0.958,-2.395c0.02,-0.512 -0.038,-1.445 -0.645,-1.945c-0.504,-0.414 -1.284,-0.442 -2.094,-0.44c-2.976,0.018 -5.698,0.178 -8.58,0.347c-1.935,0.116 -3.937,0.234 -6.011,0.303z"
+                                fill="#878d8f"></path>
+                            <path
+                                d="M23.814,33.916c-5.881,0.053 -11.022,-0.458 -16.907,-0.229c-0.386,0.015 -0.795,0.112 -1.069,0.385c-0.377,0.376 -0.343,0.985 -0.283,1.514l0.133,1.173c0.114,1.008 1.017,2.776 2.032,2.782c8.718,0.05 16.994,0.025 25.712,-0.074c1.72,-0.02 3.444,-0.042 5.154,-0.226c1.07,-0.115 2.134,-0.292 3.184,-0.532c0.394,-0.09 0.813,-0.205 1.074,-0.513c0.214,-0.254 0.285,-0.597 0.33,-0.926c0.08,-0.579 0.105,-1.165 0.077,-1.748c-0.05,-1.034 -0.899,-1.865 -1.933,-1.895c-5.891,-0.172 -11.563,0.236 -17.504,0.289z"
+                                fill="#ffffff"></path>
+                            <path
+                                d="M16.402,40.067c-2.868,0 -5.748,-0.008 -8.687,-0.025c-1.398,-0.008 -2.402,-2.136 -2.525,-3.226l-0.133,-1.173c-0.053,-0.471 -0.152,-1.347 0.427,-1.926c0.326,-0.324 0.811,-0.508 1.403,-0.53c3.345,-0.128 6.51,-0.021 9.571,0.085c2.362,0.082 4.802,0.169 7.351,0.144v0c2.266,-0.021 4.527,-0.093 6.714,-0.164c3.518,-0.114 7.154,-0.23 10.808,-0.124c1.293,0.038 2.355,1.079 2.418,2.371c0.03,0.614 0.003,1.233 -0.081,1.841c-0.055,0.405 -0.147,0.83 -0.443,1.18c-0.359,0.425 -0.883,0.572 -1.346,0.678c-1.064,0.243 -2.155,0.425 -3.241,0.542c-1.765,0.189 -3.591,0.21 -5.202,0.229c-5.863,0.066 -11.425,0.098 -17.034,0.098zM10.118,34.127c-1.043,0 -2.101,0.018 -3.192,0.061c-0.332,0.012 -0.593,0.097 -0.736,0.239c-0.209,0.208 -0.19,0.653 -0.139,1.103l0.133,1.173c0.106,0.942 0.935,2.335 1.538,2.339c8.681,0.052 16.849,0.027 25.703,-0.074c1.667,-0.019 3.39,-0.038 5.107,-0.223c1.047,-0.113 2.099,-0.289 3.125,-0.522c0.319,-0.073 0.645,-0.16 0.804,-0.349c0.13,-0.154 0.181,-0.413 0.216,-0.67c0.076,-0.547 0.1,-1.104 0.073,-1.656c-0.038,-0.773 -0.674,-1.397 -1.448,-1.42c-3.623,-0.106 -7.244,0.01 -10.747,0.124c-2.192,0.07 -4.459,0.144 -6.737,0.164v0c-2.565,0.028 -5.021,-0.062 -7.394,-0.144c-2.133,-0.074 -4.187,-0.145 -6.306,-0.145z"
+                                fill="#878d8f"></path>
+                        </g>
+                    </g>
+                </svg>
             </button>
         </div>
     </div>
@@ -167,15 +266,14 @@
 
 
     <div id="cap18" class="container big_photo_portfolio">
-                <ul class=" ">
 
-        <!-------------ВЕЛИКЕ ФОТО (Набір ясеневих ковпачків з прозорими флаконами)---------------->
 
-             <li class=" ">
+        <!-------------ВЕЛИКЕ ФОТО---------------->
+
+
                 <h2 class="big_photo_text ">Набір ясеневих ковпачків з прозорими флаконами</h2>
                         <img class="big_photo" src="./images/CAP/ORIGINAL/18/C0018-AS/C0018-ASNT/C0018F-ASNTTR/C0018F-ASNTTR.jpg" alt="Набір ясеневих ковпачків 18" >
-             </li>
-        </ul>        
+    
     </div>
         </section>
 
@@ -275,12 +373,10 @@
     <!-------------ВЕЛИКЕ ФОТО---------------->
 
     <div class="container big_photo_portfolio">
-        <ul class=" ">
-             <li class=" ">
+
                 <h2 class="big_photo_text"> Набір ясеневих ковпачків з матовими флаконами</h2>
                         <img class="big_photo" src="./images/CAP/ORIGINAL/18/C0018-AS/C0018-ASNT/C0018F-ASNTMT/C0018F-ASNTMT.jpg" alt="Набір ясеневих ковпачків 18" >
-            </li>
-        </ul>        
+   
     </div>
 
 <!-----------------"Фото 4 шт."-->
@@ -377,12 +473,10 @@
 
 
 <div class="container big_photo_portfolio">
-<ul class=" ">
-     <li class=" ">
+
         <h2 class="big_photo_text"> Набір ясеневих ковпачків з чорними флаконами</h2>
         <img class="big_photo" src="./images/CAP/ORIGINAL/18/C0018-AS/C0018-ASNT/C0018F-ASNTBL/C0018F-ASNTBL.jpg" alt="Набір ясеневих ковпачків 18" >
-</li>
-</ul>        
+    
 </div>
 
 
@@ -500,14 +594,11 @@
 
 
             <div class="container big_photo_portfolio">
-                <ul class=" ">
-                     <li class=" ">
+                
                         <h2 class="big_photo_text"> Набір ясеневих ковпачків з коричневими флаконами</h2>
 
                             <img class="big_photo" src="./images/CAP/ORIGINAL/18/C0018-AS/C0018-ASNT/C0018F-ASNTBR/C0018F-ASNTBR.jpg" alt="Набір ясеневих ковпачків" >
-
-                    </li>
-                </ul>        
+      
             </div>
 
 
@@ -553,7 +644,7 @@
 </p></pre>
                         </div>
                             <div class="title-card">
-                            <h3 class="portfolio_text">Комплект 30 мл</h3>
+                            <h3 class="portfolio_text">Комплект 20 мл</h3>
                             <p>арт. С0018F020-ASNTBR</p>
                             </div>
                     </li>
@@ -601,7 +692,7 @@
         </div>
         </section>
  
-        <!-------------ВЕЛИКЕ ФОТО (Набір ясеневих дифузорів з прозорими флаконами)---------------->
+        <!-------------ВЕЛИКЕ ФОТО---------------->
 
  <section class=" ">
 <div id="diffuser18" class="container big_photo_portfolio">
@@ -1063,18 +1154,7 @@
 </div>
 </section>
 
-<!-------------ВЕЛИКЕ ФОТО (дифузор з акації 18 мм)---------------->
 
-<section class=" ">
-    <div class="container big_photo_portfolio">
-            <ul class=" ">
-         <li class=" big_photo_list">
-            <h2 class="big_photo_text ">Дифузор з акації різьбовий для горловини 18 мм</h2>
-                <div class="">
-                    <img class="big_photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AC/D0018-ACNT/D0018-ACNT.JPG" alt="Дифузор з акації 18" >
-                    
-                </div>
-         </li>
 </section>
          <!-------------ВЕЛИКЕ ФОТО---------------->
 
@@ -1094,9 +1174,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AC/D0018-ACNT/D0018F-ACNTTR//D0018F010-ACNTTR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -1204,9 +1284,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AC/D0018-ACNT/D0018F-ACNTMT/D0018F010-ACNTMT.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -1444,9 +1524,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AC/D0018-ACNT/D0018F-ACNTBR/D0018F010-ACNTBR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -1535,21 +1615,6 @@
 </div>
 </section>
 
-<!-------------ВЕЛИКЕ ФОТО (дифузор з горіха 18 мм)---------------->
-
-<section class=" ">
-
-    <div class="container big_photo_portfolio">
-            <ul class=" ">
-         <li class=" big_photo_list">
-            <h2 class="big_photo_text ">Дифузор з горіха різьбовий для горловини 18 мм</h2>
-                <div class="">
-                    <img class="big_photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-NT/D0018-NTNT/D0018-NTNT.JPG" alt="Дифузор з горіха 18" >
-
-                </div>
-         </li>
-</section>
-
          <!-------------ВЕЛИКЕ ФОТО---------------->
 
 <section class=" ">
@@ -1569,9 +1634,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-NT/D0018-NTNT/D0018F-NTNTTR/D0018F010-NTNTTR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -1678,9 +1743,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-NT/D0018-NTNT/D0018F-NTNTMT/D0018F010-NTNTMT.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -1919,9 +1984,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-NT/D0018-NTNT/D0018F-NTNTBR/D0018F010-NTNTBR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -2010,21 +2075,6 @@
 </div>
 </section>
 
-<!-------------ВЕЛИКЕ ФОТО (дифузор з дубу 18 мм)---------------->
-
-<section class=" ">
-    <div class="container big_photo_portfolio">
-            <ul class=" ">
-         <li class=" big_photo_list">
-            <h2 class="big_photo_text ">Дифузор з дубу різьбовий для горловини 18 мм</h2>
-                <div class="">
-                    <img class="big_photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AO/D0018-AONT/D0018-AONT.JPG" alt="Дифузор з дубу 18" >
-
-                </div>
-         </li>
-</section>
-
-         <!-------------ВЕЛИКЕ ФОТО---------------->
 
 <section class=" ">
     <div class="container big_photo_portfolio">
@@ -2043,9 +2093,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AO/D0018-AONT/D0018F-AONTTR/D0018F010-AONTTR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -2152,9 +2202,9 @@
         <!-----------------"Фото 4 шт."-->
         
         <section class="section">
-        <div class="container portfolio">
+        <div class="container-photo portfolio">
         <h1 class="is-hidden">Портфолио</h1>
-        <ul class="portfolio__list">
+        <ul class="portfolio__list more-photo">
             <li class="portfolio__item">
                     <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AO/D0018-AONT/D0018F-AONTMT/D0018F010-AONTMT.JPG" alt="Комплект 10 мл" >
                         <pre><p class="text-img">
@@ -2389,9 +2439,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/ORIGINAL/18/D0018-AO/D0018-AONT/D0018F-AONTBR/D0018F010-AONTBR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -2481,22 +2531,11 @@
 </section>
 
 
-        <!-------------ВЕЛИКЕ ФОТО (дифузор фігурний з ясена 18 мм)---------------->
-
-        <section class=" ">
-            <div class="intro">
-            <div class="container big_photo_portfolio">
-                    <ul class=" ">
-                 <li class=" big_photo_list">
-                    <h2 class="big_photo_text ">Дифузор фігурний з ясена різьбовий для горловини 18 мм</h2>
-                           <div class="">
-                        <img class="big_photo" src="./images/DIFFUSER/FIGURED/18/DF018-AS/DF018-ASNT/DF018-ASNT.JPG" alt="Дифузор фігурний з ясена" >
-
-                    </div>
-                 </li>
-            
                  <!-------------ВЕЛИКЕ ФОТО---------------->
-            
+            <section class=" ">
+                <div class="intro">
+                    <div class="container big_photo_portfolio">
+                        <ul class=" ">
                  <li class=" big_photo_list">
                     <h2 class="big_photo_text "> Набір ясеневих фігурних дифузорів з прозорими флаконами</h2>
             
@@ -2510,9 +2549,9 @@
             <!-----------------"Фото 4 шт."-->
             
             <section class="section">
-            <div class="container portfolio">
+            <div class="container-photo portfolio">
                 <h1 class="is-hidden">Портфолио</h1>
-                <ul class="portfolio__list">
+                <ul class="portfolio__list more-photo">
                     <li class="portfolio__item">
                             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-AS/DF018-ASNT/DF018F-ASNTTR/DF018F010-ASNTTR.JPG" alt="Комплект 10 мл" >
                                 <pre><p class="text-img">
@@ -2620,9 +2659,9 @@
             <!-----------------"Фото 4 шт."-->
             
             <section class="section">
-            <div class="container portfolio">
+            <div class="container-photo portfolio">
             <h1 class="is-hidden">Портфолио</h1>
-            <ul class="portfolio__list">
+            <ul class="portfolio__list more-photo">
                 <li class="portfolio__item">
                         <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-AS/DF018-ASNT/DF018F-ASNTMT/DF018F010-ASNTMT.JPG" alt="Комплект 10 мл" >
                             <pre><p class="text-img">
@@ -2861,9 +2900,9 @@
             <!-----------------"Фото 4 шт."-->
             
             <section class="section">
-            <div class="container portfolio">
+            <div class="container-photo portfolio">
             <h1 class="is-hidden">Портфолио</h1>
-            <ul class="portfolio__list">
+            <ul class="portfolio__list more-photo">
                 <li class="portfolio__item">
                         <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-AS/DF018-ASNT/DF018F-ASNTBR/DF018F010-ASNTBR.JPG" alt="Комплект 10 мл" >
                             <pre><p class="text-img">
@@ -2952,21 +2991,6 @@
             </div>
             </section>
 
-<!-------------ВЕЛИКЕ ФОТО (дифузор фігурний з горіха 18 мм)---------------->
-
-<section class=" ">
-    <div class="intro">
-    <div class="container big_photo_portfolio">
-            <ul class=" ">
-         <li class=" big_photo_list">
-            <h2 class="big_photo_text "> Дифузор фігурний з горіха різьбовий для горловини 18 мм</h2>
-                <div class="">
-                    <img class="big_photo" src="./images/DIFFUSER/FIGURED/18/DF018-NT/DF018-NTNT/DF018-NTNT.JPG" alt="Дифузор фігурний з горіха 18" >
-
-                </div>
-         </li>
-</section>
-
          <!-------------ВЕЛИКЕ ФОТО---------------->
 
 <section class=" ">
@@ -2985,9 +3009,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-NT/DF018-NTNT/DF018F-ASNTTR/DF018F010-ASNTTR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -3093,9 +3117,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-NT/DF018-NTNT/DF018F-ASNTMT/DF018F010-ASNTMT.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -3334,9 +3358,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-NT/DF018-NTNT/DF018F-ASNTBR/DF018F010-ASNTBR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -3425,21 +3449,6 @@
 </div>
 </section>
 
-<!-------------ВЕЛИКЕ ФОТО (дифузор фігурний з червоного дерева 18 мм)---------------->
-
-<section class=" ">
-    <div class="intro">
-    <div class="container big_photo_portfolio">
-            <ul class=" ">
-         <li class=" big_photo_list">
-            <h2 class="big_photo_text ">Дифузор фігурний з червоного дерева різьбовий для горловини 18 мм</h2>
-                <div class="">
-                    <img class="big_photo" src="./images/DIFFUSER/FIGURED/18/DF018-RD/DF018-RDNT/DF018-RDNT.JPG" alt="Дифузор фігурний з червоного дерева 18" >
-
-                </div>
-         </li>
-</section>
-
          <!-------------ВЕЛИКЕ ФОТО---------------->
 
 <section class=" ">
@@ -3458,9 +3467,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-RD/DF018-RDNT/DF018F-RDNTTR/DF018F010-RDNTTR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -3566,9 +3575,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-RD/DF018-RDNT/DF018F-RDNTMT/DF018F010-RDNTMT.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
@@ -3807,9 +3816,9 @@
 <!-----------------"Фото 4 шт."-->
 
 <section class="section">
-<div class="container portfolio">
+<div class="container-photo portfolio">
 <h1 class="is-hidden">Портфолио</h1>
-<ul class="portfolio__list">
+<ul class="portfolio__list more-photo">
     <li class="portfolio__item">
             <div class="portfolio__link-wrap"><img class="photo" src="./images/DIFFUSER/FIGURED/18/DF018-RD/DF018-RDNT/DF018F-RDNTBR/DF018F010-RDNTBR.JPG" alt="Комплект 10 мл" >
                 <pre><p class="text-img">
